@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:faceapp/models/user.dart';
 import 'package:faceapp/routes/request/requests_controller.dart';
 import 'package:flutter/material.dart';
