@@ -1,3 +1,3 @@
 class GlobalConfig {
-  static final API_URL = "127.0.0.1:5000";
+  static final API_URL = "192.168.100.31:5000";
 }
