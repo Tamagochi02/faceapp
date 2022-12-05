@@ -59,7 +59,7 @@ class PostViewPage extends StatelessWidget {
                 onPressed: () {
                   if (_descriptionController.text.isEmpty) {
                     const snackBar =
-                        SnackBar(content: Text("No se permiten campos vacios"));
+                        SnackBar(content: Text("Debes agregar una descripcion"));
                     ScaffoldMessenger.of(context).showSnackBar(snackBar);
                     return;
                   } else {
