@@ -16,10 +16,12 @@ class PostController {
         },
         body: jsonEncode({
           "description": description,
-          "media": {"ext": "", "b64": ""}
+          "media": "",
+          "ext": "",
+          "b64": ""
         }));
 
-    if (response.statusCode != 200) { // Valida si encuentro algo el metodo post, 200 es "ok"
+    if (response.statusCode != 200) {// Valida si encuentro algo el metodo post, 200 es "ok"
       print("Error: " + response.statusCode.toString());
     } else {
       print(response.statusCode.toString() + "Has hecho una publicación");
